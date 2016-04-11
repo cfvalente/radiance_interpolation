@@ -1,6 +1,6 @@
 Software compilado e testado utilizando OSX 10.10, com XCode 6.4 e GCC 5.3.0 instalados.
 
 A biblioteca FreeImage distribuida é uma versão modificada, para compilá-la utilizar o comando 'make'.
-Basta utilizar o comando 'make' para compilar o projeto.
+Basta utilizar o comando 'make' na pasta 'src' para compilar o projeto.
 
 Manter os arquivos 'libfreeimage-3.17.0.dylib' e 'libfreeimage-3.17.0.dylib-x86_64' no mesmo local do executável gerado.
