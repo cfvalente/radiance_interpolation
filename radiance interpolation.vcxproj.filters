@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\bezier.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\beziercubapproximator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bezierquadapproximator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bsplineapproximator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gaussianbackwardinterpolator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gaussianforwardinterpolator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hdrimage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lagrangeinterpolator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\linearinterpolator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\minmax.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\naturalcubicsplineinterpolator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quadraticinterpolator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stirlinginterpolator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\bezier.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\beziercubapproximator.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bezierquadapproximator.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\define.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bsplineapproximator.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gaussianforwardinterpolator.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gaussianbackwardinterpolator.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hdrimage.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\interpolator.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lagrangeinterpolator.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\linearinterpolator.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math2.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minmax.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\naturalcubicsplineinterpolator.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quadraticinterpolator.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stirlinginterpolator.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{55abab06-5c47-42f4-a2fd-5bc9764f54b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{e4d95b73-eefb-4cfe-9492-b3168ddc8e5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

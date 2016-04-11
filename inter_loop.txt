@@ -1,0 +1,11 @@
+interpolate_loop "results"
+5 1
+ncspline
+linear
+quadratic
+lagrange
+stirling
+"im1teste.tif" 60
+"im2teste.tif" 90
+"im3teste.tif" 120
+"im4teste.tif" 150

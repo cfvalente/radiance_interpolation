@@ -1,0 +1,7 @@
+interpolate "rb2"
+3 75
+lagrange
+linear
+quadratic
+"r2.tif" 60
+"b2.tif" 90

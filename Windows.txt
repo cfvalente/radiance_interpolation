@@ -1,0 +1,6 @@
+A compilação deve ser feita como x64.
+Compilar a biblioteca FreeImage utilizando Visual Studio 2012.
+Mover o arquivo FreeImage.lib gerado para a pasta ‘dependencies’ do projeto.
+Compilar o projeto utilizando Visual Studio 2015.
+
+Mover a biblioteca, FreeImage.dll, para o mesmo local de execução do projeto. 

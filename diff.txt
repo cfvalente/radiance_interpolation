@@ -1,0 +1,5 @@
+difference "diff"
+"im1teste" "b2.tif" 1
+"im2teste" "b2.tif" 2
+"im3teste" "b2.tif" 3
+"im4teste" "b2.tif" 4
