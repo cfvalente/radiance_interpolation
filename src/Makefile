@@ -5,7 +5,7 @@ CFLAGS=-std=c++11
 export CPATH=../dependencies
 
 all: bezier.o beziercubapproximator.o bezierquadapproximator.o bsplineapproximator.o gaussianbackwardinterpolator.o gaussianforwardinterpolator.o hdrimage.o input.o lagrangeinterpolator.o linearinterpolator.o math2.o minmax.o naturalcubicsplineinterpolator.o quadraticinterpolator.o stirlinginterpolator.o main.o
-	$(CC) $(CFLAGS) -lfreeimage -arch x86_64 *.o -o exe
+	$(CC) $(CFLAGS) -lfreeimage -arch x86_64 *.o -o interpolation.exe
 main.o:
 	$(CC) $(CFLAGS) -c main.cpp
 
