@@ -1,0 +1,67 @@
+<interpolate/interpolate_loop/difference> <"nome da série de comparações/interpolações">
+
+interpolate – gera uma imagem de saída para todas as interpolações definidas no instante especificado
+
+<N - número de interpolações distintas utilizadas> <T - instante da interpolação>
+<interp1> --{nome designado para interpolação -- ver abaixo}
+<interp2>
+...
+<interpN>
+<"imagem1"> <tempo1>
+<"imagem2"> <tempo2>
+...
+<"imagemM"> <tempoM>
+
+
+
+/*****************************************************************************************************************************/
+
+
+
+interpolate_loop – gera uma série de imagens interpoladas com $instantes_k = tempo1 + k*T$, onde $k\inN$ e $instantes_k <= tempoM$. 
+
+<N - num de interpolações distintas utilizadas> <T - diferenças de tempo entre cada interpolação>
+<interp1>
+...
+<interpN>
+<"imagem1"> <tempo1>
+<"imagem2"> <tempo2>
+...
+<"imagemM"> <tempoM>
+
+
+
+/*****************************************************************************************************************************/
+
+
+
+difference – retorna as diferenças $L^1$ e $L^2$ das imagens e gera também gera uma imagem de diferença.
+
+<"imagem1a"> <"imagem1b"> <Nome comparação 1>
+<"imagem2a"> <"imagem2b"> <Nome comparação 2>
+...
+<"imagemMa"> <"imagemMb"> <Nome comparação M>
+
+
+Note que as imagens e o nome da série de comparações e interpolações devem ser definidos entre aspas. Isso é feito, pois, esses "nomes" estão especificando caminhos para as imagens e o resultado da interpolação.
+
+
+
+/*****************************************************************************************************************************/
+
+
+
+
+Tipo de interpolação       Nome reconhecido no arquivo de entrada
+
+Lagrange                     --> lagrange
+Linear                       --> linear
+Quadrática                   --> quadratic
+Gauss's Forward              --> gaussforward
+Gauss's Backward             --> gaussbackward
+Stirling                     --> stirling
+Spline Cúbica Natural        --> ncspline
+Bézier                       --> bezier
+Bézier Quadrática            --> bezierquad
+Bézier Cúbica                --> beziercub
+B-Spline Cúbica          --> bsplinecub
