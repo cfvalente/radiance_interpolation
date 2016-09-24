@@ -127,10 +127,10 @@ float HdrImage::calcDist(const HdrImage& param) {
 			float r = diffBits[x].red;
 			float g = diffBits[x].green;
 			float b = diffBits[x].blue;
-			dist += sqrt(r*r + g*g + b*b);
+			dist += r*r + g*g + b*b;
 		}
 	}
-	return dist;
+	return sqrt(dist);
 }
 
 float HdrImage::calcDist_L1(const HdrImage& param) {
